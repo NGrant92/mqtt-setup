@@ -10,6 +10,18 @@
   - Python3 is required to send/recieve messages
 
 ### Setup:
+Add a credentials file
+> touch src/credentials.json
+
+Add the private/public ip of the RaspberryPi like so:  
+```json
+{
+  "broker_address": "x.x.x.x"
+}
+
+```
+Replace x.x.x.x with iP of Pi
+
 **RaspberryPi:**  
 
 Download MQTT docker image suited to run on RaspberryPi  
